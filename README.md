@@ -20,3 +20,7 @@ This system calculates the 3D magnitude vector of physical force over an I2C com
 * `code.ino` - The primary Embedded C++ logic for the Arduino.
 * `Seismic_Activity_Detector.fzz` - The Fritzing circuit schematic and breadboard layout.
 * `Gerber_Files.zip` - Extended Gerber files for PCB fabrication.
+
+* ## 🎬 Project Demonstration
+Watch the physical hardware demonstration and trigger response here: 
+[Seismic Activity Detector Demo Video](https://youtu.be/9bCrLYihuKo)
