@@ -13,8 +13,8 @@ This system calculates the 3D magnitude vector of physical force over an I2C com
 ## How It Works
 1. The ADXL345 sensor constantly sends X, Y, and Z axis acceleration data to the Arduino.
 2. The Arduino stitches the raw bytes into integers and calculates the absolute vector magnitude.
-3. If the magnitude is `< 1.5g` (Normal resting gravity is 1.0g), the system remains armed and silent.
-4. If the magnitude is `> 1.5g` (Simulating a seismic shock), the alarms trigger immediately until the system stabilizes.
+3. If the magnitude is `< 1.25g` (Normal resting gravity is 1.0g), the system remains armed and silent.
+4. If the magnitude is `> 1.25g` (Simulating a seismic shock), the alarms trigger immediately until the system stabilizes.
 
 ## Repository Contents
 * `code.ino` - The primary Embedded C++ logic for the Arduino.
