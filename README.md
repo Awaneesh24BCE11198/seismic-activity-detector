@@ -18,5 +18,5 @@ This system calculates the 3D magnitude vector of physical force over an I2C com
 
 ## Repository Contents
 * `code.ino` - The primary Embedded C++ logic for the Arduino.
-* `Earfquake.fzz` - The Fritzing circuit schematic and breadboard layout.
+* `Seismic_Activity_Detector.fzz` - The Fritzing circuit schematic and breadboard layout.
 * `Gerber_Files.zip` - Extended Gerber files for PCB fabrication.
